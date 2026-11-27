@@ -1,0 +1,584 @@
+{
+  "currency": "CNY",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "valuation_date": "2026-09-30",
+  "balance_date": "2026-09-30",
+  "market_price": 26.65,
+  "price_date": "2026-10-20",
+  "bridge": {
+    "cash_equivalents": 16.80817789883976,
+    "operating_cash": 2.7952,
+    "nonoperating_financial_assets": 14.51045107374864,
+    "debt_components": {
+      "短期借款": 31.9808711879408,
+      "一年内到期的融资负债": 0.33761151526424,
+      "长期借款": 0.4732223861,
+      "非流动租赁负债": 0.37132427610599994
+    },
+    "other_claims": 5.700765175136076,
+    "shares": 7.54584257
+  },
+  "bridge_adjustments": [],
+  "scenarios": {
+    "bear": {
+      "wacc": 0.10112611349926745,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.13,
+      "terminal_margin": 0.06110947000685431,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 130.059714575,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "remaining",
+        "bridge_roll": "explicit",
+        "revenue": 35.6376,
+        "ebit_margin": 0.05208808673984781,
+        "tax_rate": 0.15,
+        "da": 0.76392,
+        "capex": 1.21296,
+        "delta_nwc": -3.1928
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 138.1456,
+          "ebit_margin": 0.0551254444586002,
+          "tax_rate": 0.15,
+          "da": 3.133,
+          "capex": 3.7318,
+          "delta_nwc": -3.3904
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 150.9168,
+          "ebit_margin": 0.05838930059476479,
+          "tax_rate": 0.15,
+          "da": 3.29764,
+          "capex": 3.64716,
+          "delta_nwc": -0.9464
+        },
+        {
+          "year": 2029,
+          "stage": "transition",
+          "revenue": 160.5464,
+          "ebit_margin": 0.05994798762226993,
+          "tax_rate": 0.15,
+          "da": 3.44984,
+          "capex": 3.85668,
+          "delta_nwc": 1.92592
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 168.3808,
+          "ebit_margin": 0.060613675668484766,
+          "tax_rate": 0.15,
+          "da": 3.5896,
+          "capex": 3.964,
+          "delta_nwc": 1.56688
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 174.8688,
+          "ebit_margin": 0.06116752216518898,
+          "tax_rate": 0.15,
+          "da": 3.69692,
+          "capex": 4.05888,
+          "delta_nwc": 1.2976
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 180.908,
+          "ebit_margin": 0.06110947000685431,
+          "tax_rate": 0.15,
+          "da": 3.82424,
+          "capex": 4.162736,
+          "delta_nwc": 1.20784
+        }
+      ]
+    },
+    "base": {
+      "wacc": 0.10112611349926745,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.13,
+      "terminal_margin": 0.07004407505119642,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 132.752514575,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "remaining",
+        "bridge_roll": "explicit",
+        "revenue": 38.3304,
+        "ebit_margin": 0.06074635276438545,
+        "tax_rate": 0.15,
+        "da": 0.76392,
+        "capex": 1.28028,
+        "delta_nwc": -7.6808
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 152.0584,
+          "ebit_margin": 0.06375004866551272,
+          "tax_rate": 0.15,
+          "da": 3.22276,
+          "capex": 4.00108,
+          "delta_nwc": -5.6344
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 171.1128,
+          "ebit_margin": 0.06895795054490371,
+          "tax_rate": 0.15,
+          "da": 3.43228,
+          "capex": 4.16328,
+          "delta_nwc": 1.7464
+        },
+        {
+          "year": 2029,
+          "stage": "transition",
+          "revenue": 186.5768,
+          "ebit_margin": 0.07088558062953164,
+          "tax_rate": 0.15,
+          "da": 3.69668,
+          "capex": 4.32792,
+          "delta_nwc": 3.0928
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 199.348,
+          "ebit_margin": 0.07174352388787447,
+          "tax_rate": 0.15,
+          "da": 3.85888,
+          "capex": 4.45768,
+          "delta_nwc": 2.55424
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 208.5288,
+          "ebit_margin": 0.07154862062218745,
+          "tax_rate": 0.15,
+          "da": 4.01108,
+          "capex": 4.575,
+          "delta_nwc": 1.83616
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 216.812,
+          "ebit_margin": 0.07079962363706806,
+          "tax_rate": 0.15,
+          "da": 4.16084,
+          "capex": 4.69232,
+          "delta_nwc": 1.65664
+        }
+      ]
+    },
+    "bull": {
+      "wacc": 0.10112611349926745,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.13,
+      "terminal_margin": 0.07911170379667397,
+      "terminal_tax_rate": 0.15,
+      "base_annual_revenue": 134.547714575,
+      "stub": {
+        "end": "2026-12-31",
+        "allocation": "remaining",
+        "bridge_roll": "explicit",
+        "revenue": 40.1256,
+        "ebit_margin": 0.06507506429810396,
+        "tax_rate": 0.15,
+        "da": 0.78636,
+        "capex": 1.3476,
+        "delta_nwc": -11.72
+      },
+      "forecast": [
+        {
+          "year": 2027,
+          "stage": "growth",
+          "revenue": 159.688,
+          "ebit_margin": 0.0696892941235409,
+          "tax_rate": 0.15,
+          "da": 3.33496,
+          "capex": 4.33768,
+          "delta_nwc": -6.532
+        },
+        {
+          "year": 2028,
+          "stage": "growth",
+          "revenue": 186.8208,
+          "ebit_margin": 0.07637979496929678,
+          "tax_rate": 0.15,
+          "da": 3.63424,
+          "capex": 4.63452,
+          "delta_nwc": 3.9904
+        },
+        {
+          "year": 2029,
+          "stage": "transition",
+          "revenue": 210.812,
+          "ebit_margin": 0.08039367777925356,
+          "tax_rate": 0.15,
+          "da": 3.94352,
+          "capex": 4.88892,
+          "delta_nwc": 4.79824
+        },
+        {
+          "year": 2030,
+          "stage": "transition",
+          "revenue": 229.8664,
+          "ebit_margin": 0.08150462355524775,
+          "tax_rate": 0.15,
+          "da": 4.21792,
+          "capex": 5.13088,
+          "delta_nwc": 3.81088
+        },
+        {
+          "year": 2031,
+          "stage": "transition",
+          "revenue": 243.984,
+          "ebit_margin": 0.08141304347826087,
+          "tax_rate": 0.15,
+          "da": 4.45988,
+          "capex": 5.29308,
+          "delta_nwc": 2.82352
+        },
+        {
+          "year": 2032,
+          "stage": "transition",
+          "revenue": 254.96,
+          "ebit_margin": 0.07990382805145904,
+          "tax_rate": 0.15,
+          "da": 4.65452,
+          "capex": 5.4104,
+          "delta_nwc": 2.1952
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "wacc": [
+      0.091126113499,
+      0.096126113499,
+      0.101126113499,
+      0.106126113499,
+      0.111126113499
+    ],
+    "growth": [
+      0.015,
+      0.02,
+      0.025,
+      0.03,
+      0.035
+    ],
+    "capex_multipliers": [
+      0.8,
+      0.9,
+      1,
+      1.1,
+      1.2
+    ]
+  },
+  "assumptions": {
+    "information_cutoff": "2026-11-27",
+    "ruijie_networks_economic_interest": 0.4488,
+    "cash_flow_scope": "集团合并现金流减锐捷网络外部股东应占部分。其余少数权益在价值桥接中处理。",
+    "other_operations_scope": "集团减锐捷网络独立合并财报的估计口径，含集团内交易抵销，并纳入广州芯德持续经营。",
+    "wacc_inputs": {
+      "risk_free_rate": 0.016822,
+      "beta": 1.922614430510769,
+      "beta_r_squared": 0.10441445461829378,
+      "weekly_returns": 34,
+      "beta_start": "2026-01-30",
+      "beta_end": "2026-09-30",
+      "equity_risk_premium": 0.0507,
+      "equity_cost": 0.114298551626896,
+      "pretax_debt_cost": 0.025,
+      "equity_market_cap": 201.09670449049997,
+      "debt_weight": 0.14156521404489014
+    },
+    "bridge_components_before_ownership_adjustment": {
+      "group": {
+        "cash_equivalents": 24.9263513006,
+        "operating_cash": 5,
+        "bank_wealth_management": 3.6087,
+        "current_term_deposits": 3.45,
+        "long_term_deposits": 4.5,
+        "equity_method_investments": 2.4122443391,
+        "other_financial_assets": 2.6567126311,
+        "short_debt": 67.7936346232,
+        "current_finance_debt": 0.5959903832,
+        "long_debt": 0.4732223861,
+        "long_lease_debt": 0.7095291904
+      },
+      "ruijie_networks": {
+        "cash_equivalents": 14.7281810627,
+        "operating_cash": 4,
+        "bank_wealth_management": 0,
+        "current_term_deposits": 2.854375,
+        "long_term_deposits": 0.45,
+        "equity_method_investments": 0.450822752,
+        "other_financial_assets": 0.0858869658,
+        "short_debt": 64.972357466,
+        "current_finance_debt": 0.46875701729999997,
+        "long_debt": 0,
+        "long_lease_debt": 0.6135793075
+      }
+    },
+    "other_claims_components": {
+      "其余子公司少数股东权益（账面估计）": 3.7502245197360757,
+      "应付股利": 0.7637406554,
+      "广州芯德收购剩余对价（估计）": 1.1867999999999999
+    },
+    "operating_projection": {
+      "periods": [
+        "2026Q4",
+        "2027",
+        "2028",
+        "2029",
+        "2030",
+        "2031",
+        "2032"
+      ],
+      "columns": [
+        "revenue",
+        "ebit_margin",
+        "da",
+        "capex",
+        "delta_nwc"
+      ],
+      "other_operations": [
+        [
+          12.3,
+          0.02,
+          0.36,
+          0.45,
+          -0.5
+        ],
+        [
+          43,
+          0.02,
+          1.45,
+          1.6,
+          0.2
+        ],
+        [
+          45,
+          0.024,
+          1.48,
+          1.65,
+          0.4
+        ],
+        [
+          47,
+          0.026,
+          1.52,
+          1.68,
+          0.4
+        ],
+        [
+          49,
+          0.028,
+          1.57,
+          1.72,
+          0.4
+        ],
+        [
+          51,
+          0.03,
+          1.61,
+          1.77,
+          0.4
+        ],
+        [
+          53,
+          0.03,
+          1.67,
+          1.82,
+          0.4
+        ]
+      ],
+      "ruijie_networks": {
+        "bear": [
+          [
+            52,
+            0.069,
+            0.9,
+            1.7,
+            -6
+          ],
+          [
+            212,
+            0.071,
+            3.75,
+            4.75,
+            -8
+          ],
+          [
+            236,
+            0.073,
+            4.05,
+            4.45,
+            -3
+          ],
+          [
+            253,
+            0.074,
+            4.3,
+            4.85,
+            3.4
+          ],
+          [
+            266,
+            0.074,
+            4.5,
+            5.0,
+            2.6
+          ],
+          [
+            276,
+            0.074,
+            4.65,
+            5.1,
+            2.0
+          ],
+          [
+            285,
+            0.074,
+            4.8,
+            5.22,
+            1.8
+          ]
+        ],
+        "base": [
+          [
+            58,
+            0.08,
+            0.9,
+            1.85,
+            -16
+          ],
+          [
+            243,
+            0.081,
+            3.95,
+            5.35,
+            -13
+          ],
+          [
+            281,
+            0.085,
+            4.35,
+            5.6,
+            3
+          ],
+          [
+            311,
+            0.086,
+            4.85,
+            5.9,
+            6
+          ],
+          [
+            335,
+            0.086,
+            5.1,
+            6.1,
+            4.8
+          ],
+          [
+            351,
+            0.085,
+            5.35,
+            6.25,
+            3.2
+          ],
+          [
+            365,
+            0.084,
+            5.55,
+            6.4,
+            2.8
+          ]
+        ],
+        "bull": [
+          [
+            62,
+            0.085,
+            0.95,
+            2.0,
+            -25
+          ],
+          [
+            260,
+            0.088,
+            4.2,
+            6.1,
+            -15
+          ],
+          [
+            316,
+            0.093,
+            4.8,
+            6.65,
+            8
+          ],
+          [
+            365,
+            0.096,
+            5.4,
+            7.15,
+            9.8
+          ],
+          [
+            403,
+            0.096,
+            5.9,
+            7.6,
+            7.6
+          ],
+          [
+            430,
+            0.095,
+            6.35,
+            7.85,
+            5.4
+          ],
+          [
+            450,
+            0.093,
+            6.65,
+            8.0,
+            4
+          ]
+        ]
+      },
+      "terminal_margin": {
+        "other_operations": 0.03,
+        "ruijie_networks": {
+          "bear": 0.074,
+          "base": 0.083,
+          "bull": 0.092
+        }
+      }
+    },
+    "share_count": {
+      "issued_shares": 7.57415106,
+      "treasury_shares": 0.02830849,
+      "outstanding_shares": 7.54584257
+    }
+  }
+}
