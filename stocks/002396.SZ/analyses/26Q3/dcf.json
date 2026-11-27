@@ -1,0 +1,600 @@
+{
+  "status": "ok",
+  "valuation_date": "2026-09-30",
+  "units": {
+    "money": "亿元",
+    "shares": "亿股",
+    "price": "元/股",
+    "eps": "元/股"
+  },
+  "scenarios": {
+    "bear": {
+      "status": "ok",
+      "rows": [
+        {
+          "period": "2026-10-01/2026-12-31",
+          "end": "2026-12-31",
+          "stage": "stub",
+          "revenue": 35.6376,
+          "ebit_margin": 0.05208808673984781,
+          "tax_rate": 0.15,
+          "nopat": 1.57785024,
+          "da": 0.76392,
+          "capex": 1.21296,
+          "delta_nwc": -3.1928,
+          "fcff": 4.32161024,
+          "years": 0.25205479452054796,
+          "discount_factor": 0.9760111248180191,
+          "pv": 4.2179396713674695,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2027",
+          "end": "2027-12-31",
+          "stage": "growth",
+          "revenue": 138.1456,
+          "ebit_margin": 0.0551254444586002,
+          "tax_rate": 0.15,
+          "nopat": 6.47303696,
+          "da": 3.133,
+          "capex": 3.7318,
+          "delta_nwc": -3.3904,
+          "fcff": 9.26463696,
+          "years": 1.252054794520548,
+          "discount_factor": 0.8863754231714245,
+          "pv": 8.211946505949621,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2028",
+          "end": "2028-12-31",
+          "stage": "growth",
+          "revenue": 150.9168,
+          "ebit_margin": 0.05838930059476479,
+          "tax_rate": 0.15,
+          "nopat": 7.490137439999999,
+          "da": 3.29764,
+          "capex": 3.64716,
+          "delta_nwc": -0.9464,
+          "fcff": 8.08701744,
+          "years": 2.254794520547945,
+          "discount_factor": 0.8047593319886724,
+          "pv": 6.5081027527951445,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2029",
+          "end": "2029-12-31",
+          "stage": "transition",
+          "revenue": 160.5464,
+          "ebit_margin": 0.05994798762226993,
+          "tax_rate": 0.15,
+          "nopat": 8.180768559999999,
+          "da": 3.44984,
+          "capex": 3.85668,
+          "delta_nwc": 1.92592,
+          "fcff": 5.8480085599999985,
+          "years": 3.254794520547945,
+          "discount_factor": 0.7308511914509308,
+          "pv": 4.274024023691241,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2030",
+          "end": "2030-12-31",
+          "stage": "transition",
+          "revenue": 168.3808,
+          "ebit_margin": 0.060613675668484766,
+          "tax_rate": 0.15,
+          "nopat": 8.675252319999998,
+          "da": 3.5896,
+          "capex": 3.964,
+          "delta_nwc": 1.56688,
+          "fcff": 6.733972319999999,
+          "years": 4.254794520547946,
+          "discount_factor": 0.6637306866952412,
+          "pv": 4.469544072140345,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2031",
+          "end": "2031-12-31",
+          "stage": "transition",
+          "revenue": 174.8688,
+          "ebit_margin": 0.06116752216518898,
+          "tax_rate": 0.15,
+          "nopat": 9.09184752,
+          "da": 3.69692,
+          "capex": 4.05888,
+          "delta_nwc": 1.2976,
+          "fcff": 7.43228752,
+          "years": 5.254794520547946,
+          "discount_factor": 0.6027744493189542,
+          "pv": 4.479993017048136,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2032",
+          "end": "2032-12-31",
+          "stage": "transition",
+          "revenue": 180.908,
+          "ebit_margin": 0.06110947000685431,
+          "tax_rate": 0.15,
+          "nopat": 9.396913199999998,
+          "da": 3.82424,
+          "capex": 4.162736,
+          "delta_nwc": 1.20784,
+          "fcff": 7.850577199999997,
+          "years": 6.257534246575342,
+          "discount_factor": 0.5472719013780075,
+          "pv": 4.296400311158833,
+          "period_fraction": 1.0
+        }
+      ],
+      "wacc": 0.10112611349926745,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.13,
+      "terminal_margin": 0.06110947000685431,
+      "terminal_revenue": 185.43069999999997,
+      "terminal_nopat": 9.631836029999997,
+      "terminal_reinvestment": 1.852276159615384,
+      "terminal_fcff": 7.779559870384613,
+      "terminal_value": 102.19305193426791,
+      "terminal_pv": 55.92738583968827,
+      "terminal_share": 0.6053708103886071,
+      "explicit_pv": 36.45795035415079,
+      "ev": 92.38533619383907,
+      "net_financial_anchor": -10.34036556795872,
+      "bridge_roll": 0.0,
+      "net_financial": -10.34036556795872,
+      "debt": 33.16302936541104,
+      "equity": 82.04497062588035,
+      "price": 10.872870705263118,
+      "full_stub_fcff": 4.32161024
+    },
+    "base": {
+      "status": "ok",
+      "rows": [
+        {
+          "period": "2026-10-01/2026-12-31",
+          "end": "2026-12-31",
+          "stage": "stub",
+          "revenue": 38.3304,
+          "ebit_margin": 0.06074635276438545,
+          "tax_rate": 0.15,
+          "nopat": 1.9791671999999998,
+          "da": 0.76392,
+          "capex": 1.28028,
+          "delta_nwc": -7.6808,
+          "fcff": 9.1436072,
+          "years": 0.25205479452054796,
+          "discount_factor": 0.9760111248180191,
+          "pv": 8.924262348166138,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2027",
+          "end": "2027-12-31",
+          "stage": "growth",
+          "revenue": 152.0584,
+          "ebit_margin": 0.06375004866551272,
+          "tax_rate": 0.15,
+          "nopat": 8.239670839999999,
+          "da": 3.22276,
+          "capex": 4.00108,
+          "delta_nwc": -5.6344,
+          "fcff": 13.095750840000001,
+          "years": 1.252054794520548,
+          "discount_factor": 0.8863754231714245,
+          "pv": 11.607751692552538,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2028",
+          "end": "2028-12-31",
+          "stage": "growth",
+          "revenue": 171.1128,
+          "ebit_margin": 0.06895795054490371,
+          "tax_rate": 0.15,
+          "nopat": 10.029649799999998,
+          "da": 3.43228,
+          "capex": 4.16328,
+          "delta_nwc": 1.7464,
+          "fcff": 7.5522497999999985,
+          "years": 2.254794520547945,
+          "discount_factor": 0.8047593319886724,
+          "pv": 6.077743504059584,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2029",
+          "end": "2029-12-31",
+          "stage": "transition",
+          "revenue": 186.5768,
+          "ebit_margin": 0.07088558062953164,
+          "tax_rate": 0.15,
+          "nopat": 11.241764079999998,
+          "da": 3.69668,
+          "capex": 4.32792,
+          "delta_nwc": 3.0928,
+          "fcff": 7.517724079999997,
+          "years": 3.254794520547945,
+          "discount_factor": 0.7308511914509308,
+          "pv": 5.49433760086735,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2030",
+          "end": "2030-12-31",
+          "stage": "transition",
+          "revenue": 199.348,
+          "ebit_margin": 0.07174352388787447,
+          "tax_rate": 0.15,
+          "nopat": 12.156638800000001,
+          "da": 3.85888,
+          "capex": 4.45768,
+          "delta_nwc": 2.55424,
+          "fcff": 9.003598800000002,
+          "years": 4.254794520547946,
+          "discount_factor": 0.6637306866952412,
+          "pv": 5.975964814252451,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2031",
+          "end": "2031-12-31",
+          "stage": "transition",
+          "revenue": 208.5288,
+          "ebit_margin": 0.07154862062218745,
+          "tax_rate": 0.15,
+          "nopat": 12.6819558,
+          "da": 4.01108,
+          "capex": 4.575,
+          "delta_nwc": 1.83616,
+          "fcff": 10.281875800000002,
+          "years": 5.254794520547946,
+          "discount_factor": 0.6027744493189542,
+          "pv": 6.197652023310883,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2032",
+          "end": "2032-12-31",
+          "stage": "transition",
+          "revenue": 216.812,
+          "ebit_margin": 0.07079962363706806,
+          "tax_rate": 0.15,
+          "nopat": 13.0476768,
+          "da": 4.16084,
+          "capex": 4.69232,
+          "delta_nwc": 1.65664,
+          "fcff": 10.8595568,
+          "years": 6.257534246575342,
+          "discount_factor": 0.5472719013780075,
+          "pv": 5.943130298058471,
+          "period_fraction": 1.0
+        }
+      ],
+      "wacc": 0.10112611349926745,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.13,
+      "terminal_margin": 0.07004407505119642,
+      "terminal_revenue": 222.23229999999998,
+      "terminal_nopat": 13.231147514999996,
+      "terminal_reinvestment": 2.544451445192307,
+      "terminal_fcff": 10.68669606980769,
+      "terminal_value": 140.3814746159414,
+      "terminal_pv": 76.82683653131475,
+      "terminal_share": 0.6047086987291436,
+      "explicit_pv": 50.220842281267416,
+      "ev": 127.04767881258218,
+      "net_financial_anchor": -10.34036556795872,
+      "bridge_roll": 0.0,
+      "net_financial": -10.34036556795872,
+      "debt": 33.16302936541104,
+      "equity": 116.70731324462346,
+      "price": 15.466438924742034,
+      "full_stub_fcff": 9.1436072
+    },
+    "bull": {
+      "status": "ok",
+      "rows": [
+        {
+          "period": "2026-10-01/2026-12-31",
+          "end": "2026-12-31",
+          "stage": "stub",
+          "revenue": 40.1256,
+          "ebit_margin": 0.06507506429810396,
+          "tax_rate": 0.15,
+          "nopat": 2.2194996000000002,
+          "da": 0.78636,
+          "capex": 1.3476,
+          "delta_nwc": -11.72,
+          "fcff": 13.3782596,
+          "years": 0.25205479452054796,
+          "discount_factor": 0.9760111248180191,
+          "pv": 13.057330200303463,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2027",
+          "end": "2027-12-31",
+          "stage": "growth",
+          "revenue": 159.688,
+          "ebit_margin": 0.0696892941235409,
+          "tax_rate": 0.15,
+          "nopat": 9.459262399999998,
+          "da": 3.33496,
+          "capex": 4.33768,
+          "delta_nwc": -6.532,
+          "fcff": 14.9885424,
+          "years": 1.252054794520548,
+          "discount_factor": 0.8863754231714245,
+          "pv": 13.285475612522838,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2028",
+          "end": "2028-12-31",
+          "stage": "growth",
+          "revenue": 186.8208,
+          "ebit_margin": 0.07637979496929678,
+          "tax_rate": 0.15,
+          "nopat": 12.12893424,
+          "da": 3.63424,
+          "capex": 4.63452,
+          "delta_nwc": 3.9904,
+          "fcff": 7.138254239999999,
+          "years": 2.254794520547945,
+          "discount_factor": 0.8047593319886724,
+          "pv": 5.744576713747708,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2029",
+          "end": "2029-12-31",
+          "stage": "transition",
+          "revenue": 210.812,
+          "ebit_margin": 0.08039367777925356,
+          "tax_rate": 0.15,
+          "nopat": 14.405759200000004,
+          "da": 3.94352,
+          "capex": 4.88892,
+          "delta_nwc": 4.79824,
+          "fcff": 8.662119200000006,
+          "years": 3.254794520547945,
+          "discount_factor": 0.7308511914509308,
+          "pv": 6.330720137809989,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2030",
+          "end": "2030-12-31",
+          "stage": "transition",
+          "revenue": 229.8664,
+          "ebit_margin": 0.08150462355524775,
+          "tax_rate": 0.15,
+          "nopat": 15.924898240000001,
+          "da": 4.21792,
+          "capex": 5.13088,
+          "delta_nwc": 3.81088,
+          "fcff": 11.201058239999998,
+          "years": 4.254794520547946,
+          "discount_factor": 0.6637306866952412,
+          "pv": 7.434486077348589,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2031",
+          "end": "2031-12-31",
+          "stage": "transition",
+          "revenue": 243.984,
+          "ebit_margin": 0.08141304347826087,
+          "tax_rate": 0.15,
+          "nopat": 16.883958,
+          "da": 4.45988,
+          "capex": 5.29308,
+          "delta_nwc": 2.82352,
+          "fcff": 13.227237999999998,
+          "years": 5.254794520547946,
+          "discount_factor": 0.6027744493189542,
+          "pv": 7.973041101460744,
+          "period_fraction": 1.0
+        },
+        {
+          "period": "2032",
+          "end": "2032-12-31",
+          "stage": "transition",
+          "revenue": 254.96,
+          "ebit_margin": 0.07990382805145904,
+          "tax_rate": 0.15,
+          "nopat": 17.316437999999998,
+          "da": 4.65452,
+          "capex": 5.4104,
+          "delta_nwc": 2.1952,
+          "fcff": 14.365357999999997,
+          "years": 6.257534246575342,
+          "discount_factor": 0.5472719013780075,
+          "pv": 7.86175678663577,
+          "period_fraction": 1.0
+        }
+      ],
+      "wacc": 0.10112611349926745,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.13,
+      "terminal_margin": 0.07911170379667397,
+      "terminal_revenue": 261.334,
+      "terminal_nopat": 17.573391299999997,
+      "terminal_reinvestment": 3.3794983269230765,
+      "terminal_fcff": 14.19389297307692,
+      "terminal_value": 186.4523528212629,
+      "terminal_pv": 102.04013364489566,
+      "terminal_share": 0.6232314120050103,
+      "explicit_pv": 61.6873866298291,
+      "ev": 163.72752027472475,
+      "net_financial_anchor": -10.34036556795872,
+      "bridge_roll": 0.0,
+      "net_financial": -10.34036556795872,
+      "debt": 33.16302936541104,
+      "equity": 153.38715470676604,
+      "price": 20.32737275974816,
+      "full_stub_fcff": 13.3782596
+    }
+  },
+  "sensitivity": {
+    "wacc_growth": [
+      {
+        "wacc": 0.091126113499,
+        "growth": 0.015,
+        "price": 17.153051063491258
+      },
+      {
+        "wacc": 0.091126113499,
+        "growth": 0.02,
+        "price": 17.489821749938223
+      },
+      {
+        "wacc": 0.091126113499,
+        "growth": 0.025,
+        "price": 17.871755764750905
+      },
+      {
+        "wacc": 0.091126113499,
+        "growth": 0.03,
+        "price": 18.309935931402073
+      },
+      {
+        "wacc": 0.091126113499,
+        "growth": 0.035,
+        "price": 18.819394330771363
+      },
+      {
+        "wacc": 0.096126113499,
+        "growth": 0.015,
+        "price": 16.03351255548807
+      },
+      {
+        "wacc": 0.096126113499,
+        "growth": 0.02,
+        "price": 16.293298932880305
+      },
+      {
+        "wacc": 0.096126113499,
+        "growth": 0.025,
+        "price": 16.58440129749193
+      },
+      {
+        "wacc": 0.096126113499,
+        "growth": 0.03,
+        "price": 16.913923345327976
+      },
+      {
+        "wacc": 0.096126113499,
+        "growth": 0.035,
+        "price": 17.29129304776397
+      },
+      {
+        "wacc": 0.101126113499,
+        "growth": 0.015,
+        "price": 15.045203152590044
+      },
+      {
+        "wacc": 0.101126113499,
+        "growth": 0.02,
+        "price": 15.245059389240838
+      },
+      {
+        "wacc": 0.101126113499,
+        "growth": 0.025,
+        "price": 15.466438924797888
+      },
+      {
+        "wacc": 0.101126113499,
+        "growth": 0.03,
+        "price": 15.713880872502624
+      },
+      {
+        "wacc": 0.101126113499,
+        "growth": 0.035,
+        "price": 15.9932972111714
+      },
+      {
+        "wacc": 0.106126113499,
+        "growth": 0.015,
+        "price": 14.166478800186649
+      },
+      {
+        "wacc": 0.106126113499,
+        "growth": 0.02,
+        "price": 14.31924974311289
+      },
+      {
+        "wacc": 0.106126113499,
+        "growth": 0.025,
+        "price": 14.486537552812674
+      },
+      {
+        "wacc": 0.106126113499,
+        "growth": 0.03,
+        "price": 14.671202653805203
+      },
+      {
+        "wacc": 0.106126113499,
+        "growth": 0.035,
+        "price": 14.876909795316433
+      },
+      {
+        "wacc": 0.111126113499,
+        "growth": 0.015,
+        "price": 13.380200237702807
+      },
+      {
+        "wacc": 0.111126113499,
+        "growth": 0.02,
+        "price": 13.495691770898292
+      },
+      {
+        "wacc": 0.111126113499,
+        "growth": 0.025,
+        "price": 13.620642025023875
+      },
+      {
+        "wacc": 0.111126113499,
+        "growth": 0.03,
+        "price": 13.756799892117312
+      },
+      {
+        "wacc": 0.111126113499,
+        "growth": 0.035,
+        "price": 13.906373736520216
+      }
+    ],
+    "capex": [
+      {
+        "multiplier": 0.8,
+        "scope": "future_explicit_capex_cost_only",
+        "price": 15.985768535473277
+      },
+      {
+        "multiplier": 0.9,
+        "scope": "future_explicit_capex_cost_only",
+        "price": 15.726103730107653
+      },
+      {
+        "multiplier": 1,
+        "scope": "future_explicit_capex_cost_only",
+        "price": 15.466438924742034
+      },
+      {
+        "multiplier": 1.1,
+        "scope": "future_explicit_capex_cost_only",
+        "price": 15.206774119376412
+      },
+      {
+        "multiplier": 1.2,
+        "scope": "future_explicit_capex_cost_only",
+        "price": 14.94710931401079
+      }
+    ]
+  }
+}
